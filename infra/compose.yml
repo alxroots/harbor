@@ -43,8 +43,6 @@ services:
     build: ../services/webhook-receiver
     ports:
       - "3000:3000"
-    environment:
-      TELNYX_API_KEY: ${TELNYX_API_KEY}
     restart: unless-stopped
 
 volumes:

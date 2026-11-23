@@ -1,3 +1,4 @@
 .env
+infra/.env
 __pycache__/
 *.pyc
